@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="projectCSS.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar">
+        <li><a href="#" class="logo">IskakDev</a></li>
+        <ul class="menu">
+          <!-- <li><a href="#tjenester" class="disableMenu">TJENESTER</a></li> -->
+          <li><a href="index.html" class="disableMenu">HOME</a></li>
+          <li><a href="#aboutMe" class="disableMenu">ABOUT ME</a></li>
+          <li><a href="resume.html" class="disableMenu">RESUME</a></li>
+          <li><a href="#kontaktID" class="disableMenu">CONTACT</a></li>
+        </ul>
+        <button class="toggle">Menu<i class="fa-solid fa-bars"></i></button>
+      </div>
+    </nav>
+    <div class="header">
+      <h1>My Projects</h1>
+    </div>
+    <div class="prosjektBoxes">
+      <article class="projectCard" id="prosjekterClick1Dia">
+        <div class="modal-opener">
+          <img src="Pictures/HJHFrontpage.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">Website</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <article
+        class="projectCard"
+        id="prosjekterClick2Dia"
+        onclick="projectClicked()"
+      >
+        <div class="modal-opener">
+          <img src="Pictures/IskakDevPort.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">IskakDev Portfolio</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <article class="projectCard" id="prosjekterClick3Dia">
+        <div class="modal-opener">
+          <img src="Pictures/CsPortPic.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">Dank Memero 2.0</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <article class="projectCard" id="prosjekterClick1Dia">
+        <div class="modal-opener">
+          <img src="Pictures/HJHFrontpage.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">Website</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <article
+        class="projectCard"
+        id="prosjekterClick2Dia"
+        onclick="projectClicked()"
+      >
+        <div class="modal-opener">
+          <img src="Pictures/IskakDevPort.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">IskakDev Portfolio</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <article class="projectCard" id="prosjekterClick3Dia">
+        <div class="modal-opener">
+          <img src="Pictures/CsPortPic.png" alt="" />
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div>
+          <p class="title">Dank Memero 2.0</p>
+          <p class="place">More info in the card!</p>
+        </div>
+      </article>
+      <!-- </div> -->
+    </div>
+    <script src="scripts.js"></script>
+    <script src="projectPage.js"></script>
+  </body>
+</html>
